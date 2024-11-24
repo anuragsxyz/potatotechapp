@@ -67,7 +67,7 @@ class _NewsSectionState extends State<NewsSection> {
           ),
           elevation: 1.0,
           margin: const EdgeInsets.all(10.0),
-          color: const Color.fromARGB(255, 241, 241, 241),
+          color: const Color.fromARGB(254, 255, 255, 255),
           child: ClipRRect(
             borderRadius: const BorderRadius.all(Radius.circular(10.0)),
             child: Column(
