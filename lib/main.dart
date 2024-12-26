@@ -55,13 +55,13 @@ class _MyHomePageState extends State<MyHomePage> {
         //title: Image.asset('assets/title.png', fit: BoxFit.cover),
         title: const Text(
           "PotatoTech",
-          style: TextStyle(color: const Color.fromARGB(255, 77, 77, 77)),
+          style: TextStyle(color: Color.fromARGB(255, 77, 77, 77)),
         ),
       ),
       drawer: const Drawer(
         elevation: 10,
       ),
-      body: TabbedElement(), // Add a Drawer here in the next step.
+      body: const TabbedElement(), // Add a Drawer here in the next step.
     );
   }
 }

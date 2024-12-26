@@ -19,7 +19,7 @@ class _TabbedElementState extends State<TabbedElement> {
 
 
   Widget build(BuildContext context) {
-    return TabBarView(
+    return const TabBarView(
       children: [
         NewsSection(),
         Icon(Icons.directions_transit),
